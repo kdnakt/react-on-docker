@@ -4,7 +4,7 @@ import {
 } from 'react-bootstrap';
 
 const App: React.FC = () => {
-  return (
+  return (<>
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -26,7 +26,17 @@ const App: React.FC = () => {
         </Form>
       </Navbar.Collapse>
     </Navbar>
-  );
+
+    <Navbar>
+      <Nav className="flex-column" variant="pills">
+        <Nav.Link>Hoge1</Nav.Link>
+        <Nav.Link>Hoge2</Nav.Link>
+        <Nav.Link>Hoge3</Nav.Link>
+        <Nav.Link>Hoge4</Nav.Link>
+        <Nav.Link>Hoge5</Nav.Link>
+      </Nav>
+    </Navbar>
+  </>);
 }
 
 export default App;
