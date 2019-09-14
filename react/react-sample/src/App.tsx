@@ -5,6 +5,7 @@ import {
 } from 'react-bootstrap';
 import ReactRouterOnly from './page/ReactRouterOnly';
 import { Route } from 'react-router-dom';
+import ReactRouterBootstrap from './page/ReactRouterBootstrap';
 
 const App: React.FC = () => {
   return (<>
@@ -14,11 +15,13 @@ const App: React.FC = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/react-router-only">React Router</Nav.Link>
+          <Nav.Link href="/react-router-bootstrap">React Router Bootstrap</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
 
     <Route path="/react-router-only" component={ReactRouterOnly} />
+    <Route path="/react-router-bootstrap" component={ReactRouterBootstrap} />
   </>);
 }
 

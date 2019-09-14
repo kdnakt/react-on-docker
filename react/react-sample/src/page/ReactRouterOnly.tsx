@@ -18,7 +18,7 @@ const ReactRouterOnly: React.FC = () => {
               <Navbar.Brand>React Router Only</Navbar.Brand>
               <Navbar.Toggle aria-controls="navbar-nav-pills" />
               <Navbar.Collapse id="navbar-nav-pills">
-                  <Nav className="flex-column" variant="pills">
+                <Nav className="flex-column" variant="pills">
                   <Nav.Link href="/react-router-only/hoge1">Hoge1</Nav.Link>
                   <Nav.Link href="/react-router-only/hoge2">Hoge2</Nav.Link>
                   <Nav.Link href="/react-router-only/hoge3">Hoge3</Nav.Link>
