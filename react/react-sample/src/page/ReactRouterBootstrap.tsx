@@ -20,11 +20,11 @@ const ReactRouterBootstrap: React.FC = () => {
               <Navbar.Toggle aria-controls="navbar-nav-pills" />
               <Navbar.Collapse id="navbar-nav-pills">
                 <Nav className="flex-column" variant="pills">
-                  <LinkContainer to="/react-router-bootstrap/hoge1">Hoge1</LinkContainer>
-                  <LinkContainer to="/react-router-bootstrap/hoge2">Hoge2</LinkContainer>
-                  <LinkContainer to="/react-router-bootstrap/hoge3">Hoge3</LinkContainer>
-                  <LinkContainer to="/react-router-bootstrap/hoge4">Hoge4</LinkContainer>
-                  <LinkContainer to="/react-router-bootstrap/hoge5">Hoge5</LinkContainer>
+                  <LinkContainer to="/react-router-bootstrap/hoge1"><div>Hoge1</div></LinkContainer>
+                  <LinkContainer to="/react-router-bootstrap/hoge2"><div>Hoge2</div></LinkContainer>
+                  <LinkContainer to="/react-router-bootstrap/hoge3"><div>Hoge3</div></LinkContainer>
+                  <LinkContainer to="/react-router-bootstrap/hoge4"><div>Hoge4</div></LinkContainer>
+                  <LinkContainer to="/react-router-bootstrap/hoge5"><div>Hoge5</div></LinkContainer>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
