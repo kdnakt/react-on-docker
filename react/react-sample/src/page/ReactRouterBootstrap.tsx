@@ -15,7 +15,7 @@ const ReactRouterBootstrap: React.FC = () => {
       <Container>
         <Row>
           <Col sm={3} >
-            <Navbar className="flex-column" variant="dark" bg="dark">
+            <Navbar className="flex-column">
               <Navbar.Brand>React Router Bootstrap</Navbar.Brand>
               <Navbar.Toggle aria-controls="navbar-nav-pills" />
               <Navbar.Collapse id="navbar-nav-pills">
