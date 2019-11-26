@@ -7,6 +7,7 @@ import {
   Col,
 } from 'react-bootstrap';
 import { Route } from 'react-router';
+import MyForm from './MyForm';
 
 const ReactRouterOnly: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const ReactRouterOnly: React.FC = () => {
                   <Nav.Link href="/react-router-only/hoge3">Hoge3</Nav.Link>
                   <Nav.Link href="/react-router-only/hoge4">Hoge4</Nav.Link>
                   <Nav.Link href="/react-router-only/hoge5">Hoge5</Nav.Link>
+                  <Nav.Link href="/react-router-only/myform">MyForm</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
@@ -34,6 +36,7 @@ const ReactRouterOnly: React.FC = () => {
             <Route path="/react-router-only/hoge3" component={() => <h1>Hoge3</h1>} />
             <Route path="/react-router-only/hoge4" component={() => <h1>Hoge4</h1>} />
             <Route path="/react-router-only/hoge5" component={() => <h1>Hoge5</h1>} />
+            <Route path="/react-router-only/myform" component={MyForm} />
           </Col>
         </Row>
       </Container>
