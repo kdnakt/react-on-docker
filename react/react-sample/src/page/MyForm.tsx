@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, RefObject } from 'react';
 import { Form } from 'react-bootstrap';
 
 const MyForm: React.FC = () => {
@@ -13,7 +13,6 @@ const MyForm: React.FC = () => {
           minLength={5}
           type="text"
         />
-
       </Form.Group>
     </Form>
   );
